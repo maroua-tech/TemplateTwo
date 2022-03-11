@@ -208,6 +208,10 @@ header .container nav button:hover {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
+.landing .container .content button:hover {
+  color: var(--main-color);
+  background-color: var(--font-color);
+}
 .landing .container .images {
   width: 60%;
   position: relative;
