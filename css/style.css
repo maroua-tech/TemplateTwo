@@ -474,6 +474,11 @@ header .container nav button:hover {
     left: 56%;
   }
 }
+@media (max-width: 520px) {
+  .about .container .statistic::after {
+    left: 29%;
+  }
+}
 .about .container .statistic .content {
   display: flex;
   width: 280px;
@@ -513,6 +518,15 @@ header .container nav button:hover {
   }
   .about .container .statistic .content:last-of-type {
     left: 47%;
+    top: 18%;
+  }
+}
+@media (max-width: 992px) {
+  .about .container .statistic .content:first-of-type {
+    left: 28%;
+  }
+  .about .container .statistic .content:last-of-type {
+    left: 11%;
     top: 18%;
   }
 }
@@ -756,6 +770,16 @@ header .container nav button:hover {
     left: 149px;
   }
 }
+@media (max-width: 520px) {
+  .subscribe .container input:first-of-type {
+    margin-left: 44px;
+  }
+  .subscribe .container input:last-of-type {
+    position: relative;
+    top: -46px;
+    left: 139px;
+  }
+}
 /* end subscribe */
 /* start footer */
 footer {
@@ -775,7 +799,7 @@ footer .container .content {
   justify-content: space-between;
 }
 footer .container .content > div {
-  width: 18.9%;
+  width: 22.3%;
 }
 footer .container .content > div:first-of-type span {
   color: var(--second-color);
@@ -812,6 +836,10 @@ footer .container .content > div:last-of-type ul li {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   cursor: pointer;
+}
+footer .container .content > div:last-of-type ul li:first-of-type {
+  padding-right: 8px;
+  padding-left: 8px;
 }
 footer .container .content > div:last-of-type ul li:hover {
   transform: scale(1.2);
