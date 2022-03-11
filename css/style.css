@@ -653,6 +653,11 @@ header .container nav button:hover {
   filter: grayscale(97.8%);
   -webkit-filter: grayscale(97.8%);
   cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 .pricing .container .courses .course img:hover {
   filter: none;
@@ -676,9 +681,9 @@ header .container nav button:hover {
   flex-direction: column;
   box-shadow: -5px 5px 11px gray;
 }
-.pricing .container .courses .course:hover .price {
+/* .pricing .container .courses .course:hover .price {
   right: -13px;
-}
+} */
 .pricing .container .courses .course .price b {
   color: var(--font-color);
 }
