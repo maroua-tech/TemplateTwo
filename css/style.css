@@ -407,6 +407,7 @@ header .container nav button:hover {
   }
 }
 .features .container .content .text i {
+  margin-top: 10px;
   font-weight: 600;
   color: white;
   border-radius: 13px;
