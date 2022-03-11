@@ -776,7 +776,7 @@ header .container nav button:hover {
     left: 149px;
   }
 }
-@media (max-width: 520px) {
+@media (max-width: 480px) {
   .subscribe .container input:first-of-type {
     width: 306px;
     margin-left: 0px;
