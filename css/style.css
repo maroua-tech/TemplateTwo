@@ -291,6 +291,25 @@ header .container nav button:hover {
     right: 42%;
   }
 }
+@media (max-width: 400px) {
+  .landing .container .images .active_student {
+    top: 49%;
+    right: 42%;
+    height: 86px;
+    width: 115px;
+    padding: 11px;
+  }
+  .landing .container .images .circle {
+    width: 60px;
+    height: 60px;
+  }
+  .landing .container .images .courses {
+    width: 175px;
+    padding: 4px;
+    top: 16%;
+    right: 44%;
+  }
+}
 .landing .container .images .active_student span {
   font-weight: bold;
   color: var(--font-color);
