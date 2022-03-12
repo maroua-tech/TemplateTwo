@@ -855,11 +855,11 @@ footer .container .content > div p {
 }
 footer .container .content > div ul li {
   margin-bottom: 14px;
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
 }
 footer .container .content > div:not(div:last-of-type) ul li:hover {
   position: relative;
