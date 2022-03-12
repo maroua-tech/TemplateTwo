@@ -855,11 +855,22 @@ footer .container .content > div p {
 }
 footer .container .content > div ul li {
   margin-bottom: 14px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+footer .container .content > div:not(div:last-of-type) ul li:hover {
+  position: relative;
+  right: -20px;
+  cursor: context-menu;
 }
 footer .container .content > div:last-of-type ul {
   display: flex;
 }
 footer .container .content > div:last-of-type ul li {
+  transition: 0.1s;
   margin-right: 6px;
   color: var(--font-color);
   background-color: var(--main-color);
@@ -872,6 +883,10 @@ footer .container .content > div:last-of-type ul li {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   cursor: pointer;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
 }
 footer .container .content > div:last-of-type ul li:first-of-type {
   padding-right: 8px;
