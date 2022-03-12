@@ -407,7 +407,7 @@ header .container nav button:hover {
   }
 }
 .features .container .content .text i {
-  margin-top: 10px;
+  margin-top: 30px;
   font-weight: 600;
   color: white;
   border-radius: 13px;
@@ -435,7 +435,7 @@ header .container nav button:hover {
   color: var(--font-color);
   font-weight: 400;
   font-size: 19px;
-  width: 70%;
+  width: 69%;
   margin-left: 14%;
 }
 /* end features */
@@ -538,7 +538,7 @@ header .container nav button:hover {
   }
   .about .container .statistic .content:last-of-type {
     left: 11%;
-    top: 18%;
+    top: 19%;
   }
 }
 .about .container .statistic .content .text h5 {
@@ -677,7 +677,7 @@ header .container nav button:hover {
   position: absolute;
   background-color: white;
   width: 262px;
-  right: 1px;
+  right: 22px;
   bottom: -49px;
   z-index: 200;
   border-radius: 8px;
@@ -794,7 +794,7 @@ header .container nav button:hover {
   .subscribe .container input:last-of-type {
     position: relative;
     top: -46px;
-    left: 101px;
+    left: 119px;
   }
 }
 /* end subscribe */
@@ -841,7 +841,7 @@ footer .container .content > div:last-of-type ul {
   display: flex;
 }
 footer .container .content > div:last-of-type ul li {
-  margin-right: 10px;
+  margin-right: 6px;
   color: var(--font-color);
   background-color: var(--main-color);
   padding: 5px;
