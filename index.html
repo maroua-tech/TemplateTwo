@@ -19,9 +19,8 @@
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" /> -->
 
+<link rel="stylesheet" href="css/animate.css">
 
-
-    
 </head>
 
 <body>
@@ -30,9 +29,9 @@
         <div class="container">
             <span class="logo"><a href="#" style="color:#23009d;">Besnik</a></span>
             <nav>
-                <i class="fas fa-bars toggle-menu"></i>
-                <ul>
-                    <li><a href="">Home</a></li>
+                <div id="menu"><i class="fas fa-bars"></i></div>
+                <ul id="list">
+                    <li><a href="" >Home</a></li>
                     <li><a href="">Features</a></li>
                     <li><a href="">Pricing</a></li>
                     <li><a href="">About</a></li>
@@ -47,7 +46,7 @@
     <!-- start landing -->
     <div class="landing">
         <div class="container">
-            <div class="content">
+            <div class="wow bounceInLeft content">
                 <p>😎Book your course</p>
                 <h1>A great PLace for learning .</h1>
                 <p>A best and cheapest way of getting know learning to make a better tomorrow</p>
@@ -55,14 +54,14 @@
             </div>
             <div class="images">
                 <div class="circle"></div>
-                <div class="courses">
+                <div class="wow bounceInRight courses">
                     <div class="icon"><i class="fa-solid fa-floppy-disk"></i></div>
                     <div class="text">
                         <span>5000+</span>
                         <p>suitable courses</p>
                     </div>
                 </div>
-                <div class="active_student">
+                <div class="wow bounceInRight active_student">
                     <span>20k</span>
                     <p>Active student</p>
                     <ul>
@@ -71,7 +70,7 @@
                         <li>20k+</li>
                     </ul>
                 </div>
-                    <img src="images/student.png" alt="">
+                    <img class="wow bounceInRight" src="images/student.png" alt="">
             </div>
         </div>
     </div>
@@ -79,11 +78,11 @@
     <!-- start features -->
     <div class="features">
         <div class="container">
-            <div class="content">
+            <div class=" wow bounceInDown content">
                 <h3>What we provide</h3>
                 <p>Here is our amazing teaching method that suits for you. <br> read our features and know the best.</p>
             </div>
-            <div class="content">
+            <div class="wow bounceInDown content">
                 <div class="text">
                     <i class="fas fa-desktop fa-3x"></i>
                     <p>Live class with best teachers</p>
@@ -103,7 +102,7 @@
     <!-- start about -->
     <div class="about">
         <div class="container">
-            <div class="statistic">
+            <div class="wow bounceInLeft statistic">
                 <div class="content">
                     <img src="images/man.jfif" alt="">
                     <div class="text">
@@ -119,7 +118,7 @@
                     <img src="images/man.jfif" alt="">
                 </div>
             </div>
-            <div class="text">
+            <div class="wow bounceInRight text">
                 <h3>Trasted by best teachers</h3>
                 <p>we are trasted by the best teachers all over world here you can build your career in this platform.
                 </p>
@@ -141,7 +140,7 @@
                 </div>
             </div>
             <div class="courses">
-                <div class="course">
+                <div class="course wow bounceInLeft">
                     <img src="images/laptop.jpg" alt="">
                     <div class="price">
                         <b>$200</b>
@@ -159,9 +158,9 @@
                         </div>
                     </div>
                 </div>
-                    <div class="course">
+                    <div class="course wow bounceInDown">
                         <div class="overlay"></div>
-                        <img src="images/design.jpg" alt="">
+                        <img  src="images/design.jpg" alt="">
                         <div class="price">
                             <b>$200</b>
                             <span>UI/UX Design</span>
@@ -179,7 +178,7 @@
                             </div>
                         </div>
                     </div>               
-                    <div class="course">
+                    <div class="course wow bounceInRight">
                         <img src="images/laptob.jpg" alt="">
                         <div class="price">
                             <b>$200</b>
@@ -253,6 +252,8 @@
         </div>
     </footer>
     <!-- end footer -->
+    <script src="script/wow.min.js"></script>
+    <script src="script/script.js"></script>
 </body>
 
 </html>
